@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+nav {
+  background-color: transparent;
+  height: 17vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.first-image-div img {
+  width: 100px;
+}
+
+.nav-list-items {
+  display: flex;
+  list-style: none;
+  gap: 80px;
+  color: white;
+  align-items: center;
+}
+nav ul button {
+  border-style: solid;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+/* HERO SECTION BEGINS */
+.hero-div {
+  background-image: url("IMG-20250410-WA0000.jpg");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  justify-items: center;
+  background-repeat: no-repeat;
+  color: white;
+background-color: rgb(209, 203, 203);
+background-blend-mode: multiply;
+
+}
+.hero-div h4 {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.hero-div h2 {
+  font-size: 120px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -20px;
+}
+.hero-div p {
+  width: 30%;
+  font-size: 25px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 30px;
+}
+.hero-div button {
+  border-style: solid;
+  border-radius: 10px;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(242, 181, 12);
+  border-color: transparent;
+  color: green;
+  cursor: pointer;
+}
+.hero-div button:hover {
+  background-color: rgb(239, 212, 8);
+  color: rgb(0, 0, 0);
+}
+
+/* HERO SECTION ENDS */
+
+.all-image-container {
+  display: flex;
+  /* align-items: center; */
+  justify-items: center;
+  /* justify-content: space-between; */
+  align-content: space-around;
+  padding: 50px;
+}
+.all-image-container h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: grey;
+  margin-top: 30px;
+}
+.all-image-container p {
+  font-size: 20px;
+  font-family: Tahoma;
+  width: 70%;
+}
+
+.our-services-div h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  color: gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.our-services-div {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin-top: 50px;
+  justify-items: center;
+}
+
+.line-div {
+  border-style: solid;
+  border-radius: 10px;
+  width: 10%;
+  height: 2px;
+  border-color: rgb(195, 255, 0);
+  margin: 2px;
+}
+
+/* CUSTOMER NEED */
+.customer-section {
+  background-color: #f6f8f5;
+  height: 70vh;
+  margin-top: 50px;
+}
+.quote-img-div {
+  display: flex;
+  justify-content: center;
+  opacity: 0.3;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.customer-section h2 {
+  color: #536942;
+  font-family: Tahoma;
+  font-size: xx-large;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avatar-img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.avatar-img-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+}
+.customer-section p {
+  color: #536942;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+/* CUSTOMER NEED ENDS HERE */
+
+/* INTRODUCTION SECTION BEGINS HERE */
+.introduction-parent-div{
+  display: flex;
+  margin-top: 50px;
+  padding: 100px;
+  gap: 200px;
+  
+}
+
+.about-us{
+  height: 40%;
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+.about-us h5{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color: gray;
+  margin-bottom: 25px;
+}
+
+.about-us h2{
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: times 'Times New Roman', Times, serif;
+  width: 80%;
+  margin-bottom: 50px;
+  color: gray;
+}
+
+.about-us p{
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 50px;
+
+}
+
+.about-us button{
+  border-style: solid;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  border-color: gray;
+  color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.about-us button:hover{
+border-color: greenyellow;
+color: greenyellow;
+}
+
+
+.introduction-img-div{
+  height: 50%;
+  width: 50%;
+}
+/* INTRODUCTION SECTION ENDS HERE */
+
+/* QUESTION SECTION */
+.question-sec{
+  align-items: center;
+justify-content: center;
+align-content: center;
+justify-items: center;
+text-align: center;
+background-image: url("footer-hero-mobile.jpg");
+background-position: center;
+background-size: cover;
+height: 80vh;
+}
+
+.question-sec h1{
+  color: green;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin-bottom: 50px;
+
+}
+
+.question-sec p{
+  width: 35%;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 50px;
+}
+
+.question-sec button{
+  border-style: solid;
+  border-color: transparent;
+  background-color: yellow;
+  color: green;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.question-sec button:hover{
+  background-color: rgb(239, 153, 5);
+  color: rgb(255, 255, 255); 
+}
+
+
+/* QUESTION SECTION ENDS HERE */
+
+/* FOOTER SECTION BEGINS HERE  */
+.footer-container{
+  /* list-style: none; */
+  display: flex;
+  /* gap: 60px; */
+  height: 17vh;
+    justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  margin-top: 60px;
+  color: green;
+  
+}
+
+.footer-container ul{
+  list-style: none;
+display: flex;
+gap: 40px;
+}
+
+/* FOOTER SECTION ENDS HERE */
+
+@media (max-width: 1024px) {
+  .all-image-container {
+    flex-direction: column;
+  }
+  .all-image-container img {
+    width: 100%;
+    height: 100%;
+  }
+  .all-image-container p {
+    display: none;
+  }
+  .all-image-container h4 {
+    display: none;
+  }
+  .introduction-parent-div{
+    flex-direction: column;
+    width: 80%;
+  }
+  .about-us{
+    width: 90%;
+  }
+  .nav-list-items{
+display: none;
+  }
+}
+@media (max-width: 834px) {
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .all-image-container h4 {
+    display: block;
+  }
+  .all-image-container p {
+    display: block;
+  }
+}
